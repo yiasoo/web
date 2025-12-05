@@ -49,7 +49,6 @@
            ========================================= */
         .navbar {
             transition: all 0.3s ease;
-           
             background-color: var(--white);
             box-shadow: 0 2px 15px rgba(0,0,0,0.05);
         }
@@ -621,28 +620,20 @@
                 </div>
 
                 <div class="col-lg-7">
-                    <form class="contact-box h-100">
-                        <h3 class="mb-4">Send us a Message</h3>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" placeholder="Your Email" required>
-                            </div>
-                            <div class="col-12">
-                                <input type="text" class="form-control" placeholder="Subject">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="col-12 mt-2">
-                                <button type="submit" class="btn btn-hero w-100">Send Message</button>
-                            </div>
+                    <div class="contact-box h-100 d-flex flex-column justify-content-center align-items-center text-center">
+                        <div class="mb-4">
+                            <i class="fa-solid fa-paper-plane fa-3x" style="color: var(--accent-color);"></i>
                         </div>
-                    </form>
+                        <h3 class="mb-3">Send us a Message</h3>
+                        <p class="text-muted mb-4" style="max-width: 400px;">
+                            Have a question or need to schedule a consultation? Click the button below to open your email client and send us a message directly.
+                        </p>
+                        <a href="mailto:reception@yiasooaudit.com?subject=Inquiry%20via%20Yiasoo%20Website" class="btn btn-hero px-5 py-3">
+                            <i class="fa-solid fa-envelope me-2"></i> Send Email
+                        </a>
+                    </div>
                 </div>
-            </div>
+                </div>
         </div>
     </section>
 
@@ -714,4 +705,3 @@
     </script>
 </body>
 </html>
-
